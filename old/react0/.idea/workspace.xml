@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0272f72d-f8d0-41ce-b936-689a4922ddf1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app-react/config/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/config/getHttpsConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/config/jest/cssTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/config/jest/fileTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/config/modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/config/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/config/pnpTs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/config/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/config/webpackDevServer.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/mock/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/mock/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/mock/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/data/list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/data/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/images/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/images/headimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/images/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/images/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/images/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/images/say321.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/images/zan123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/scripts/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/scripts/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/css/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/css/reg.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/css/user.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/cg_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/fx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/gk_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/headimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/history.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/history1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/home1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/mm_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/my.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/my1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/my_cz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/next_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/say.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/sc_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/write.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/xing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/zan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/assets/img/zan1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/BareScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/cell/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/cell/style.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/loading/loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/loading/loading.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-button/uc-button.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-input/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-input/renderSpan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-input/uc-input.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-nav/UcNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-nav/UcNav.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-nav/img/history.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-nav/img/history1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-swiper/assets/js/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-swiper/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/components/uc-swiper/style.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/layouts/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/layouts/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/layouts/footer.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/layouts/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/layouts/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/pages/Column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/pages/Detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/pages/Follow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/pages/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/pages/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/pages/NoPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/pages/Reg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/pages/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/plugins/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/setupProxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/utils/filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/src/utils/font.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-react/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodeserver/config/global.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodeserver/config/server.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/setupProxy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/build.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1026">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app-react" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/setupProxy.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react0" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0272f72d-f8d0-41ce-b936-689a4922ddf1" name="Default Changelist" comment="" />
+      <created>1586454808810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586454808810</updated>
+      <workItem from="1586454811987" duration="2324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2324000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nodeserver/config/global.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeserver/config/server.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Document</title>
+</head>
+<body>
+
+</body>
+<script type='text/javascript'>
+
+// 定时器
+var a=100;
+tim=setInterval(() => {
+    a++;
+    if(a>=108){
+        clearInterval(tim)
+    }
+    console.log(a)
+}, 100);
+
+
+// 延迟器 
+setTimeout(() => {
+    console.log(123)
+},200); 
+console.log('2'); // 打印 2 123
+</script>
+</html>

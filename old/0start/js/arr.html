@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Document</title>
+</head>
+<body>
+
+</body>
+<script type='text/javascript'>
+
+var q={"v":1};
+console.log(1111,q["v"]);
+
+
+
+let arr=[
+    {id:1,source:[
+        {name:"h1",text:"w1"},
+        {name:"h2",text:"w2"},
+        {name:"h3",text:"w3"}
+    ]},
+    {id:2,source:[
+        {name:"n1",text:1},
+        {name:"n2",text:2}
+    ]}
+]
+function f(arr){
+    var arr1=[];
+    arr.forEach(item=> {
+        let {id,source}=item;
+        res={"id":id};
+        source.forEach(item1=> {
+            for(i in item1){
+                // if(!res[i]){
+                //     res[i]="";
+                // }
+                res[i]+="/"+item1[i]
+                // ---
+                res[i]=res[i].replace(/^\//g,"")
+            }
+            // if(!res["name"]){
+            //     res["name"]=res["text"]="";
+            // }
+            // res["name"]+="/"+item["name"];
+            // res["text"]+="/"+item["text"];    
+        })
+        arr1.push(res)
+    });
+
+
+    return arr1
+}
+var res=f(arr);
+console.log(res);
+</script>
+</html>
