@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Document</title>
+</head>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<body>
+  <div id="app">
+    <input type="number" v-model="first" v-on:change="calc">
+    <select name="" id="" v-model="op" v-on:change="calc">
+      <option >+</option>
+      <option >-</option>
+      <option >*</option>
+      <option >/</option>
+    </select>
+    <input type="number" v-model="last" v-on:change="calc">
+    <!-- <button v-on:click="calc">=</button> -->
+    =
+    <input type="text" v-model="res">
+  </div>
+</body>
+<script type='text/javascript'>
+  const app=new Vue({
+    el:'#app',
+    data:{
+      op:"+",
+      first:"",
+      last:"",
+      res:""
+    },
+    methods:{
+      calc(a){
+        
+        if (!this.first||!this.last){
+          return this.res=""
+        }
+        this.first=parseInt(this.first)
+        this.last=parseInt(this.last)
+        switch (this.op) {
+          case "+":
+            this.res=this.first+this.last
+            break;
+          case "-":
+            this.res=this.first-this.last
+            break;
+          case "*":
+            this.res=this.first*this.last
+            break;
+          case "/":
+            this.res=this.first/this.last
+            break;
+          default:
+            this.res=""
+        }
+      }
+
+    }
+
+  })
+</script>
+</html>

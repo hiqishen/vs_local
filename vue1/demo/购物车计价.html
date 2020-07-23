@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Document</title>
+</head>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<body>
+  <div id="app">
+    <label for="">商品价格</label>
+    <input type="text" v-model="deal_price">RMB
+
+    <br>
+    <label for="">数量</label>
+    <button v-on:click="deal_num>0?deal_num--:0">-</button>
+    <span>{{deal_num}}</span>
+    <button v-on:click="deal_num++">+</button>
+    <p>总价格:<strong>{{deal_price*deal_num}}</strong>RMB</p>
+  </div>
+</body>
+<script type='text/javascript'>
+  const app=new Vue({
+    el:"#app",
+    data:{
+      deal_price:0,
+      deal_num:6,
+    }
+  })
+</script>
+</html>

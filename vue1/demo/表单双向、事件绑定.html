@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Document</title>
+</head>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<body>
+    <div id="app">
+        姓: <input type="text" v-model="first_name" placeholder="请输入你的姓">
+        <br>
+        名: <input type="text" v-model="last_name">
+        <br>
+				<p style="color: red;">你的姓名:{{first_name+last_name}}</p>
+				<div>
+					<input type="text" v-model="num">
+					<!-- <button v-on:click="num++">点击+1</button> -->
+					<button v-on:click="incre">点击+1</button>
+				</div>
+		</div>
+		
+</body>
+<script type='text/javascript'>
+    const app=new Vue({
+        el:"#app",
+        data:{
+            first_name:"",
+						last_name:"",
+						num:1,
+						
+				},
+				methods:{
+					incre:function(){
+							this.num++
+							console.log(this);
+						}
+				}
+    })
+</script>
+</html>
